@@ -1,0 +1,40 @@
+html, body, div, span,
+iframe, img, figure, figcaption,
+h1, h2, h3, h4, h5, h6, p, a,
+blockquote, code, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, input
+table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, summary, embed,
+footer, header, menu, nav, output, ruby, section,
+mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} 

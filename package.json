@@ -1,0 +1,28 @@
+{
+  "name": "jordanriver-insurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "export": "next export",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Gavyn Caldwell",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-styled-components": "^1.4.0",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-components": "^0.5.1",
+    "react-dom": "^16.2.0",
+    "standard": "^10.0.3",
+    "styled-components": "^2.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
