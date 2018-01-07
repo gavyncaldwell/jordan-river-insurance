@@ -13,6 +13,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel='stylesheet' href='/static/reset.css' />
           <link rel='stylesheet' href='/static/typography.css' />
           <title>Jordan River Insurance</title>
