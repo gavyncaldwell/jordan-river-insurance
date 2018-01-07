@@ -31,9 +31,11 @@ const Menu = styled.div`
 export default () => {
   return (
     <Header>
-      <img
-        src='http://jordanriverinsurance.com/wp-content/uploads/2017/01/JordanRiverLOGO_8in_300dpi@2x-1015x159-6877.png'
-        alt='jordan river insurance' />
+      <Link href='/>
+        <img
+          src='http://jordanriverinsurance.com/wp-content/uploads/2017/01/JordanRiverLOGO_8in_300dpi@2x-1015x159-6877.png'
+          alt='jordan river insurance' />
+      </Link>
 
       <Menu className='c-menu'>
         <Link prefetch href='/'><a>Home</a></Link>
