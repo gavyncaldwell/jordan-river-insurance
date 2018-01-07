@@ -42,8 +42,19 @@ export const Aside = styled.aside`
   ${flexItem('400px', '1')}
   margin: 16px;
 
+  @media (max-width: 800px) {
+    text-align: center;
+  }
+
   ${props => props.textAlignRight && css`
     text-align: right;
+  `}
+
+
+  ${props => props.lastOnMobile && css`
+    @media (max-width: 800px) {
+      order: 2;
+    }
   `}
 `
 

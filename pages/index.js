@@ -43,7 +43,7 @@ export default () => {
       </Section>
 
       <Section>
-        <Aside>
+        <Aside lastOnMobile>
           <img
             className='c-section-img'
             src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png' />
@@ -54,7 +54,7 @@ export default () => {
           <h3 className='c-header-text'><i>
             We have 36 Provider partners, to choose from to fit your risk profile
           </i></h3>
-          <p>
+          <p className='c-header-text'>
             Most people don't know that insurers charge different prices for
             the same service. Depending on if you're their ideal customer or not
             can cost you hundreds or thousands of dollars a year. Many people

@@ -17,6 +17,8 @@ export const LinkButton = styled.a`
 
   @media(max-width: 800px) {
     margin: 10px 24px;
+    padding: 24px;
+    font-size: 18px;
   }
 
   &:hover {
