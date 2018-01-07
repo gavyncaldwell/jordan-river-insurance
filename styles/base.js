@@ -39,7 +39,7 @@ export const Section = styled.div`
 
 export const Aside = styled.aside`
   ${flexContainer('center')}
-  ${flexItem('400px', '1')}
+  ${flexItem('500px', '1')}
   margin: 16px;
 
   @media (max-width: 800px) {
@@ -52,44 +52,43 @@ export const Aside = styled.aside`
 
 
   ${props => props.lastOnMobile && css`
-    @media (max-width: 800px) {
+    @media (max-width: 911px) {
       order: 2;
+    }
+  `}
+
+  ${props => props.borderAside && css`
+    flex-basis: 100px;
+    flex-grow: 0;
+    border-top: 4px solid ${neutral1};
+
+    @media (max-width: 811px) {
+      flex-grow: 1;
+    }
+  `}
+
+  ${props => props.placeholder && css`
+    flex-basis: 100px;
+    flex-grow: 0;
+  `}
+
+  ${props => props.small && css`
+    flex-basis: 200px;
+  `}
+
+  ${props => props.leftAlignMobile && css`
+    @media (max-width: 800px) {
+      text-align: left;
     }
   `}
 `
 
-// export const Container = styled.div`
-//   ${flexContainer('center', 'center')};
-//   width: 100%;
-//   height: 100%;
-// `
+export const Ul = styled.ul`
+  width: 100%;
+  padding-bottom: 40px;
+  padding-left: 0;
 
-// export const Card = styled.div`
-//   ${flexContainer('center')};
-//   ${flexItem('100%', '1')};
-//   margin: 32px calc(50% - 400px);
-//   padding: 32px;
-//   box-shadow: 4px 4px 16px 2px gray;
-//   border-radius: 8px;
-
-//   @media (max-width: 848px) {
-//     margin: 24px;
-//   }
-
-//   > h1 {
-//     width: 100%;
-//     text-align: center;
-//     padding-bottom: 24px;
-//   }
-
-//   > h3 {
-//     width: 100%;
-//     text-align: center;
-//   }
-// `
-
-// export const Title = styled.h1`
-//   width: 100%;
-//   text-align: center;
-//   font-size: 64px;
-// `
+   > li {
+     margin-left: 0;
+   }
+`

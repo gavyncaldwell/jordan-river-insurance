@@ -38,7 +38,7 @@ export default () => {
       <Menu className='c-menu'>
         <Link href='/'><a>Home</a></Link>
         <Link href='/about'><a>About</a></Link>
-        <Link href='/our-location'><a>Our Location</a></Link>
+        <Link href='/contact-us/our-location'><a>Our Location</a></Link>
         <a target='_blank' href='http://calendly.com/jri/call'>Schedule a Call</a>
       </Menu>
     </Header>
