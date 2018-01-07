@@ -33,10 +33,10 @@ export default () => {
         alt='Jordan River Insurance' />
 
       <Links>
-        <Link>
-          <a href=''>Terms &amp; Conditions</a>
+        <Link href='/terms'>
+          <a>Terms &amp; Conditions</a>
         </Link>
-        <Link>
+        <Link href='privacy-policy'>
           <a href=''>Privacy Policy</a>
         </Link>
       </Links>
