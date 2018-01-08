@@ -148,5 +148,7 @@ export const PicAnim = styled.div`
 
   > img {
     visibility: hidden;
+    width: 100%;
+    height: auto;
   }
 `
