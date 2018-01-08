@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled, { css, keyframes } from 'styled-components'
 import { flexContainer, flexItem } from './tools/mixins'
 import { neutral1 } from './tools/colors'
 
@@ -91,4 +91,62 @@ export const Ul = styled.ul`
    > li {
      margin-left: 0;
    }
+`
+const picAnimation = keyframes`
+  0% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  16% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-2@2x-(1)-520x510-4572.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  30% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-3@2x-(1)-520x510-9572.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  44% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-4@2x-(1)-520x510-9800.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  58% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-5@2x-(1)-520x510-2674.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  72% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-6@2x-(1)-520x510-9755.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  86% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-7@2x-520x510-7972.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    background: url('http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+`
+
+export const PicAnim = styled.div`
+  width: 100%;
+  animation: ${picAnimation} 8s linear infinite;
+
+  > img {
+    visibility: hidden;
+  }
 `

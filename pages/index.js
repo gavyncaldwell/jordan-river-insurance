@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import { Section, Aside } from '../styles/base'
+import { Section, Aside, PicAnim } from '../styles/base'
 import { LinkButton } from '../styles/components/buttons'
 
 export default () => {
@@ -44,9 +44,9 @@ export default () => {
 
       <Section>
         <Aside lastOnMobile>
-          <img
-            className='c-section-img'
-            src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png' />
+          <PicAnim>
+            <img src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png' />
+          </PicAnim>
         </Aside>
 
         <Aside>
