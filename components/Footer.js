@@ -29,7 +29,7 @@ export default () => {
   return (
     <Footer>
       <img
-        src='http://jordanriverinsurance.com/wp-content/uploads/2017/04/elp_badge-236x71-4945.png'
+        src='/static/elp-badge.png'
         alt='Jordan River Insurance' />
 
       <Links>

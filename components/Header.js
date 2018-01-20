@@ -33,7 +33,7 @@ export default () => {
     <Header>
       <Link href='/'>
         <img
-          src='http://jordanriverinsurance.com/wp-content/uploads/2017/01/JordanRiverLOGO_8in_300dpi@2x-1015x159-6877.png'
+          src='/static/jri-logo.png'
           alt='jordan river insurance' />
       </Link>
 

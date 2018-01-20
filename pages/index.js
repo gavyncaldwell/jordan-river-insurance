@@ -33,7 +33,7 @@ export default () => {
         </i></p>
         <img
           className='c-section-img'
-          src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/logos@2x-1060x250-8675.png'
+          src='/static/elp-banner.png'
           alt='Jordan River Insurance' />
         <p><i>
           <strong>
@@ -45,7 +45,7 @@ export default () => {
       <Section>
         <Aside lastOnMobile>
           <PicAnim>
-            <img src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/match-1@2x-(1)-520x510-4366.png' />
+            <img src='/static/match-1.png' />
           </PicAnim>
         </Aside>
 
@@ -86,7 +86,7 @@ export default () => {
         <Aside>
           <img
             className='c-section-img'
-            src='http://jordanriverinsurance.com/wp-content/uploads/2017/03/lifesaver@2x-475x430-6553.png' />
+            src='/static/lifesaver.png' />
         </Aside>
       </Section>
 
