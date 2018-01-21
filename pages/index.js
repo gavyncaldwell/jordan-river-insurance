@@ -11,7 +11,7 @@ export default () => {
       <Section hero>
         <img
           className='c-section-img'
-          src='http://jordanriverinsurance.com/wp-content/uploads/2017/04/elp_banner_0.png'
+          src='/static/elp-banner.png'
           alt='Jordan River Insurance' />
         <LinkButton
           target='_blank'
@@ -33,7 +33,7 @@ export default () => {
         </i></p>
         <img
           className='c-section-img'
-          src='/static/elp-banner.png'
+          src='/static/insurance-logos.png'
           alt='Jordan River Insurance' />
         <p><i>
           <strong>
