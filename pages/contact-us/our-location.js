@@ -15,9 +15,15 @@ export default () => {
       <Section>
         <Aside small leftAlignMobile>
           <Ul>
+            <li>Physical Address:</li>
             <li>Jordan River Insurance</li>
-            <li>877 West Baxter (Upstairs)</li>
+            <li>8539 S Redwood Road</li>
+            <li>West Jordan, UT 84088</li>
+            <br/>
+            <li>Mailing Address:</li>
+            <li>P.O. Box 95083 </li>
             <li>South Jordan, UT 84095</li>
+            <br/>
             <li><strong>Phone:</strong> (801) 803-5640</li>
             <li>Alt. Phone: (801) 566-3334</li>
             <li>Fax: (888) 502-6620</li>
@@ -46,7 +52,7 @@ export default () => {
             width='100%'
             height='450'
             frameborder='0'
-            src='https://www.google.com/maps/embed/v1/place?q=877%20West%20Baxter%20Dr%20South%20Jordan%2C%20UT%2084095&key=AIzaSyC76WYbULuF6xDmN0wEtNivoFurrfwjJkk'
+            src='https://www.google.com/maps/embed/v1/place?q=8539+S+Redwood+Rd,+West+Jordan,+UT+84088/@40.5961117,-111.9400508,17z/data=!3m1!4b1!4m5!3m4!1s0x875288c5a84880d1:0x8354f580bd0353e7!8m2!3d40.5961117!4d-111.9378568'
             allowfullscreen />
         </Aside>
       </Section>

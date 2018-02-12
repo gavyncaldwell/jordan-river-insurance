@@ -16,7 +16,7 @@ export default () => {
 
         <Aside>
           <h2>
-            Headquarted in South Jordan, Utah, Jordan River Insurance is a multi-lines
+            Headquarted in West Jordan, Utah, Jordan River Insurance is a multi-lines
             independent insurance agency. We offer auto, home, life, health, &amp;
             business insurance coverage. Our aim is to deliver you unparalleled
             service with uncompromising integrity at competitive prices.
