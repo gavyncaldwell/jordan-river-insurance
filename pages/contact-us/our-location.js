@@ -15,12 +15,12 @@ export default () => {
       <Section>
         <Aside small leftAlignMobile>
           <Ul>
-            <li>Physical Address:</li>
+            <li><strong>Physical Address:</strong></li>
             <li>Jordan River Insurance</li>
             <li>8539 S Redwood Road</li>
             <li>West Jordan, UT 84088</li>
             <br/>
-            <li>Mailing Address:</li>
+            <li><strong>Mailing Address:</strong></li>
             <li>P.O. Box 95083 </li>
             <li>South Jordan, UT 84095</li>
             <br/>
