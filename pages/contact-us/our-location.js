@@ -52,7 +52,7 @@ export default () => {
             width='100%'
             height='450'
             frameborder='0'
-            src='https://www.google.com/maps/embed/v1/place?q=8539+S+Redwood+Rd,+West+Jordan,+UT+84088/@40.5961117,-111.9400508,17z/data=!3m1!4b1!4m5!3m4!1s0x875288c5a84880d1:0x8354f580bd0353e7!8m2!3d40.5961117!4d-111.9378568'
+            src='https://www.google.com/maps/embed/v1/place?q=877%20West%20Baxter%20Dr%20South%20Jordan%2C%20UT%2084095&key=AIzaSyC76WYbULuF6xDmN0wEtNivoFurrfwjJkk'
             allowfullscreen />
         </Aside>
       </Section>
