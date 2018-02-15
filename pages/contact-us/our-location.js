@@ -52,7 +52,7 @@ export default () => {
             width='100%'
             height='450'
             frameborder='0'
-            src='https://www.google.com/maps/embed/v1/place?q=877%20West%20Baxter%20Dr%20South%20Jordan%2C%20UT%2084095&key=AIzaSyC76WYbULuF6xDmN0wEtNivoFurrfwjJkk'
+            src='https://www.google.com/maps/embed/v1/place?q=8539%20S%20Redwood%20Road%2C%20West%20JOrdan%20Utah&key=AIzaSyA_QlF4EtCL3mayuHAcy9RQdd1p_dZjOec'
             allowfullscreen />
         </Aside>
       </Section>
