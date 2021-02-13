@@ -28,10 +28,6 @@ const Links = styled.div`
 export default () => {
   return (
     <Footer>
-      <img
-        src='/static/elp-badge.png'
-        alt='Jordan River Insurance' />
-
       <Links>
         <Link href='/terms'>
           <a>Terms &amp; Conditions</a>

@@ -30,6 +30,9 @@ export const Section = styled.div`
       width: 100%;
       padding-bottom: 40px;
     }
+    h3 {
+      font-size: 18px;
+    }
   `}
 
   ${props => props.gray && css`

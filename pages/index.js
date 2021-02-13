@@ -24,9 +24,9 @@ export default () => {
         <h3 className='c-header-text'>
           <strong>Why Choose Jordan River Insurance?</strong>
         </h3>
-        <h1 className='c-header-text'>You save because we're independent agents</h1>
+        <h1 className='c-header-text'>You always get the best coverage for the best price</h1>
         <p><i>
-          You always get the best coverage for the best price because we're an
+           That's because we're an
           <strong>&nbsp;independent</strong> Auto, Home, Life, Health, &amp; Business
           Insurance agency. We shop <strong>more than 36 insurers</strong> to
           provide you with insurance tailored to your needs and phase of life.
@@ -71,9 +71,9 @@ export default () => {
       <Section gray>
         <Aside textAlignRight>
           <h1 className='c-header-text'>We're your advocates.</h1>
-          <p className='c-header-text'>
+          <h3 className='c-header-text'>
             Insurance can be confusing
-          </p>
+          </h3>
           <p>
             Our loyalty is to you, the customer, not the insurance provider.
             We're here to be your advocates. Not sure your premiums will rise
